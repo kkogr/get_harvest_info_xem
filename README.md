@@ -1,6 +1,6 @@
 # get_harvest_info_xem
 
-XEMのハーベスト履歴を取得してCSV出力するツールです。
+XEMのハーベスト履歴を取得してCSV出力するツールです。  
 自分用に作ったのでバグがあるかもしれませんが、シンプルな内容なので簡単にお使い頂けると思います。
 
 ## 前提(premise)
@@ -10,15 +10,19 @@ XEMのハーベスト履歴を取得してCSV出力するツールです。
 
 ## 準備(preparation)
 
+```bash
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ python3 get-pip.py
 $ pip3 install requests
+```
 
 ## 実行(execution)
 
+```bash
 $ git clone https://github.com/kkogr/get_harvest_info_xem.git
 $ cd get_harvest_info_xem
 $ python3 get_harvest_info_xem.py [address]
+```
 
 ## 結果(output)
 
