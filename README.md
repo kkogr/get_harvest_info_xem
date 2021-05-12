@@ -1,7 +1,7 @@
 # get_harvest_info_xem
 
-XEMのハーベスト履歴を取得してCSV出力するツールです。  
-自分用に作ったのでバグがあるかもしれませんが、シンプルな内容なので簡単にお使い頂けると思います。
+XEMの全ハーベスト履歴を取得してCSV出力するツールです。  
+Nem Walletや[nem explorer](https://explorer.nemtool.com/)では過去の全てのハーベスト履歴を見られないので、自分用に作りました。
 
 ## 前提(premise)
 
